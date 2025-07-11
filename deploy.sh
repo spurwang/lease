@@ -2,7 +2,7 @@
 set -e
 
 echo "📥 拉取最新代码..."
-git pull origin main
+git pull origin master
 
 echo "🛑 停止现有服务..."
 docker-compose down
